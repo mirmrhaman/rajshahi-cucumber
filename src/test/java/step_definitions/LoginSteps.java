@@ -28,6 +28,7 @@ public class LoginSteps {
     // Precondition
     @Given("^a user is on the login page$")
     public void navigateToLoginPage() {
+
         ActOn.browser(driver).openBrowser("https://example.testproject.io/web/");
         LOGGER.info("User is in the login page");
     }
